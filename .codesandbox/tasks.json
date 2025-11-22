@@ -1,15 +1,18 @@
 {
     "$schema": "https://codesandbox.io/schemas/tasks.json",
     "tasks": {
-        "install": {
-            "name": "Install Dependencies",
-            "command": "npm install",
-            "runAtStart": false
-        },
-        "start": {
-            "name": "Start Server",
-            "command": "npm start",
-            "runAtStart": true
-        }
+    "install": {
+      "name": "Install Dependencies",
+      "command": "npm install"
+    },
+    "db": {
+      "name": "Load Database",
+      "command": "node ./db/dbLoad.js"
+    },
+    "start": {
+      "name": "Start Server",
+      "command": "npm start",
+      "runAtStart": true
     }
+  }
 }
