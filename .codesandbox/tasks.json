@@ -1,0 +1,15 @@
+{
+    "$schema": "https://codesandbox.io/schemas/tasks.json",
+    "tasks": {
+        "install": {
+            "name": "Install Dependencies",
+            "command": "npm install",
+            "runAtStart": false
+        },
+        "start": {
+            "name": "Start Server",
+            "command": "npm start",
+            "runAtStart": true
+        }
+    }
+}
